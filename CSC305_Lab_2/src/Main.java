@@ -34,7 +34,7 @@ public class Main {
     
     private static Dignitary parseDignitary(JSONObject jsonObject) {
         try {        
-                String name = jsonObject.getString("name");
+            String name = jsonObject.getString("name");
 
             List<String> knownFor = new ArrayList<>();
             JSONArray knownForArray = jsonObject.getJSONArray("knownFor");
