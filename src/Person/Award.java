@@ -1,4 +1,4 @@
-package Person;
+package person;
 
 public class Award {
     private final String name;
@@ -17,7 +17,6 @@ public class Award {
         return year;
     }
 
-    @Override
     public String getAward() {
         return name + ", " + year;
     }
