@@ -17,7 +17,8 @@ public class Award {
         return year;
     }
 
-    public String getAward() {
+    @Override
+    public String toString() {
         return name + ", " + year;
     }
 }

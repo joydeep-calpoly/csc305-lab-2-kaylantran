@@ -24,9 +24,10 @@ public class Dignitary {
         return awards;
     }
 
-    public String getPerson() {
+    @Override
+    public String toString() {
         StringBuilder person = new StringBuilder();
-        person.append(name).append("\n Known For: \n");
+        person.append(name).append("\nKnown For: \n");
         for (String achievement : knownFor) {
             person.append(achievement).append("\n");
         }
